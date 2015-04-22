@@ -1,14 +1,12 @@
 public class K_highest {
-	
-	
+		
 	public static void main(String[] args){
 		int[] array = {1,2,2,3,3,3,4,4,4,4,5,5,5,5,5};
 		System.out.println(
 				khigh(array, 2)
 				);
 	}
-	
-	
+		
 	public static ArrayList<Integer> khigh(int[] array, int k){
 		ArrayList<Integer> res = new ArrayList<Integer>();
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
