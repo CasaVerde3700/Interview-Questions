@@ -24,7 +24,7 @@ public class Trie {
         node.s = word;
     }
 
-    public boolean search(String word) {
+    public boolean contains(String word) {
         TrieNode node = root;
         for (char c : word.toCharArray()) {
             if (node.children[c - 'a'] == null) {
